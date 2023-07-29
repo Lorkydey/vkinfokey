@@ -1,0 +1,1354 @@
+[
+    {
+        "id": 1,
+        "raw_name": "LBUTTON",
+        "name": "KeyLButton",
+        "constant": "VK_LBUTTON",
+        "hex": "0x01",
+        "description": "Left mouse button"
+    },
+    {
+        "id": 2,
+        "raw_name": "RBUTTON",
+        "name": "RButton",
+        "constant": "VK_RBUTTON",
+        "hex": "0x02",
+        "description": "Right mouse button"
+    },
+    {
+        "id": 3,
+        "raw_name": "CANCEL",
+        "name": "KeyCancel",
+        "constant": "VK_CANCEL",
+        "hex": "0x03",
+        "description": "Control-break processing"
+    },
+    {
+        "id": 4,
+        "raw_name": "MBUTTON",
+        "name": "KeyMButton",
+        "constant": "VK_MBUTTON",
+        "hex": "0x04",
+        "description": "Middle mouse button (three-button mouse)"
+    },
+    {
+        "id": 5,
+        "raw_name": "XBUTTON1",
+        "name": "KeyXButton1",
+        "constant": "VK_XBUTTON1",
+        "hex": "0x05",
+        "description": "X1 mouse button"
+    },
+    {
+        "id": 6,
+        "raw_name": "XBUTTON2",
+        "name": "KeyXButton2",
+        "constant": "VK_XBUTTON2",
+        "hex": "0x06",
+        "description": "X2 mouse button"
+    },
+    {
+        "id": 8,
+        "raw_name": "BACK",
+        "name": "Backspace",
+        "constant": "VK_BACK",
+        "hex": "0x08",
+        "description": "BACKSPACE key"
+    },
+    {
+        "id": 9,
+        "raw_name": "TAB",
+        "name": "Tab",
+        "constant": "VK_TAB",
+        "hex": "0x09",
+        "description": "TAB key"
+    },
+    {
+        "id": 12,
+        "raw_name": "CLEAR",
+        "name": "KeyClear",
+        "constant": "VK_CLEAR",
+        "hex": "0x0C",
+        "description": "CLEAR key"
+    },
+    {
+        "id": 13,
+        "raw_name": "RETURN",
+        "name": "Enter",
+        "constant": "VK_RETURN",
+        "hex": "0x0D",
+        "description": "ENTER key"
+    },
+    {
+        "id": 16,
+        "raw_name": "SHIFT",
+        "name": "Shift",
+        "constant": "VK_SHIFT",
+        "hex": "0x10",
+        "description": "SHIFT key"
+    },
+    {
+        "id": 17,
+        "raw_name": "CONTROL",
+        "name": "Control",
+        "constant": "VK_CONTROL",
+        "hex": "0x11",
+        "description": "CTRL key"
+    },
+    {
+        "id": 18,
+        "raw_name": "MENU",
+        "name": "Alt",
+        "constant": "VK_MENU",
+        "hex": "0x12",
+        "description": "ALT key"
+    },
+    {
+        "id": 19,
+        "raw_name": "PAUSE",
+        "name": "Pause",
+        "constant": "VK_PAUSE",
+        "hex": "0x13",
+        "description": "PAUSE key"
+    },
+    {
+        "id": 20,
+        "raw_name": "CAPITAL",
+        "name": "CapsLock",
+        "constant": "VK_CAPITAL",
+        "hex": "0x14",
+        "description": "CAPS LOCK key"
+    },
+    {
+        "id": 22,
+        "raw_name": "JUNJA",
+        "name": "Junja",
+        "constant": "VK_JUNJA",
+        "hex": "0x17",
+        "description": "IME Junja mode"
+    },
+    {
+        "id": 23,
+        "raw_name": "FINAL",
+        "name": "Final",
+        "constant": "VK_FINAL",
+        "hex": "0x18",
+        "description": "IME final mode"
+    },
+    {
+        "id": 25,
+        "raw_name": "ESCAPE",
+        "name": "Escape",
+        "constant": "VK_ESCAPE",
+        "hex": "0x1B",
+        "description": "ESC key"
+    },
+    {
+        "id": 27,
+        "raw_name": "CONVERT",
+        "name": "Convert",
+        "constant": "VK_CONVERT",
+        "hex": "0x1C",
+        "description": "IME convert"
+    },
+    {
+        "id": 28,
+        "raw_name": "NONCONVERT",
+        "name": "NonConvert",
+        "constant": "VK_NONCONVERT",
+        "hex": "0x1D",
+        "description": "IME non-convert"
+    },
+    {
+        "id": 29,
+        "raw_name": "ACCEPT",
+        "name": "Accept",
+        "constant": "VK_ACCEPT",
+        "hex": "0x1E",
+        "description": "IME accept"
+    },
+    {
+        "id": 30,
+        "raw_name": "MODECHANGE",
+        "name": "ModeChange",
+        "constant": "VK_MODECHANGE",
+        "hex": "0x1F",
+        "description": "IME mode change request"
+    },
+    {
+        "id": 31,
+        "raw_name": " ",
+        "name": "Space",
+        "constant": "VK_SPACE",
+        "hex": "0x20",
+        "description": "SPACEBAR"
+    },
+    {
+        "id": 32,
+        "raw_name": "PRIOR",
+        "name": "PageUp",
+        "constant": "VK_PRIOR",
+        "hex": "0x21",
+        "description": "PAGE UP key"
+    },
+    {
+        "id": 33,
+        "raw_name": "NEXT",
+        "name": "PageDown",
+        "constant": "VK_NEXT",
+        "hex": "0x22",
+        "description": "PAGE DOWN key"
+    },
+    {
+        "id": 34,
+        "raw_name": "END",
+        "name": "End",
+        "constant": "VK_END",
+        "hex": "0x23",
+        "description": "END key"
+    },
+    {
+        "id": 35,
+        "raw_name": "HOME",
+        "name": "Home",
+        "constant": "VK_HOME",
+        "hex": "0x24",
+        "description": "HOME key"
+    },
+    {
+        "id": 36,
+        "raw_name": "LEFT",
+        "name": "ArrowLeft",
+        "constant": "VK_LEFT",
+        "hex": "0x25",
+        "description": "LEFT ARROW key"
+    },
+    {
+        "id": 37,
+        "raw_name": "UP",
+        "name": "ArrowUp",
+        "constant": "VK_UP",
+        "hex": "0x26",
+        "description": "UP ARROW key"
+    },
+    {
+        "id": 38,
+        "raw_name": "RIGHT",
+        "name": "ArrowRight",
+        "constant": "VK_RIGHT",
+        "hex": "0x27",
+        "description": "RIGHT ARROW key"
+    },
+    {
+        "id": 39,
+        "raw_name": "DOWN",
+        "name": "ArrowDown",
+        "constant": "VK_DOWN",
+        "hex": "0x28",
+        "description": "DOWN ARROW key"
+    },
+    {
+        "id": 42,
+        "raw_name": "PRINT",
+        "name": "PrintScreen",
+        "constant": "VK_PRINT",
+        "hex": "0x2A",
+        "description": "PRINT"
+    },
+    {
+        "id": 43,
+        "raw_name": "EXECUTE",
+        "name": "Execute",
+        "constant": "VK_EXECUTE",
+        "hex": "0x2B",
+        "description": "EXECUTE key"
+    },
+    {
+        "id": 44,
+        "raw_name": "SNAPSHOT",
+        "name": "PrintScreen",
+        "constant": "VK_SNAPSHOT",
+        "hex": "0x2C",
+        "description": "PRINT SCREEN key"
+    },
+    {
+        "id": 45,
+        "raw_name": "INSERT",
+        "name": "Insert",
+        "constant": "VK_INSERT",
+        "hex": "0x2D",
+        "description": "INSERT key"
+    },
+    {
+        "id": 46,
+        "raw_name": "DELETE",
+        "name": "Delete",
+        "constant": "VK_DELETE",
+        "hex": "0x2E",
+        "description": "DELETE key"
+    },
+    {
+        "id": 47,
+        "raw_name": "HELP",
+        "name": "Help",
+        "constant": "VK_HELP",
+        "hex": "0x2F",
+        "description": "HELP key"
+    },
+    {
+        "id": 48,
+        "raw_name": "0",
+        "name": "Digit0",
+        "constant": "VK_0",
+        "hex": "0x30",
+        "description": "0 key"
+    },
+    {
+        "id": 49,
+        "raw_name": "1",
+        "name": "Digit1",
+        "constant": "VK_1",
+        "hex": "0x31",
+        "description": "1 key"
+    },
+    {
+        "id": 50,
+        "raw_name": "2",
+        "name": "Digit2",
+        "constant": "VK_2",
+        "hex": "0x32",
+        "description": "2 key"
+    },
+    {
+        "id": 51,
+        "raw_name": "3",
+        "name": "Digit3",
+        "constant": "VK_3",
+        "hex": "0x33",
+        "description": "3 key"
+    },
+    {
+        "id": 52,
+        "raw_name": "4",
+        "name": "Digit4",
+        "constant": "VK_4",
+        "hex": "0x34",
+        "description": "4 key"
+    },
+    {
+        "id": 53,
+        "raw_name": "5",
+        "name": "Digit5",
+        "constant": "VK_5",
+        "hex": "0x35",
+        "description": "5 key"
+    },
+    {
+        "id": 54,
+        "raw_name": "6",
+        "name": "Digit6",
+        "constant": "VK_6",
+        "hex": "0x36",
+        "description": "6 key"
+    },
+    {
+        "id": 55,
+        "raw_name": "7",
+        "name": "Digit7",
+        "constant": "VK_7",
+        "hex": "0x37",
+        "description": "7 key"
+    },
+    {
+        "id": 56,
+        "raw_name": "8",
+        "name": "Digit8",
+        "constant": "VK_8",
+        "hex": "0x38",
+        "description": "8 key"
+    },
+    {
+        "id": 57,
+        "raw_name": "9",
+        "name": "Digit9",
+        "constant": "VK_9",
+        "hex": "0x39",
+        "description": "9 key"
+    },
+    {
+        "id": 65,
+        "raw_name": "A",
+        "name": "KeyA",
+        "constant": "VK_A",
+        "hex": "0x41",
+        "description": "A key"
+    },
+    {
+        "id": 66,
+        "raw_name": "B",
+        "name": "KeyB",
+        "constant": "VK_B",
+        "hex": "0x42",
+        "description": "B key"
+    },
+    {
+        "id": 67,
+        "raw_name": "C",
+        "name": "KeyC",
+        "constant": "VK_C",
+        "hex": "0x43",
+        "description": "C key"
+    },
+    {
+        "id": 68,
+        "raw_name": "D",
+        "name": "KeyD",
+        "constant": "VK_D",
+        "hex": "0x44",
+        "description": "D key"
+    },
+    {
+        "id": 69,
+        "raw_name": "E",
+        "name": "KeyE",
+        "constant": "VK_E",
+        "hex": "0x45",
+        "description": "E key"
+    },
+    {
+        "id": 70,
+        "raw_name": "F",
+        "name": "KeyF",
+        "constant": "VK_F",
+        "hex": "0x46",
+        "description": "F key"
+    },
+    {
+        "id": 71,
+        "raw_name": "G",
+        "name": "KeyG",
+        "constant": "VK_G",
+        "hex": "0x47",
+        "description": "G key"
+    },
+    {
+        "id": 72,
+        "raw_name": "H",
+        "name": "KeyH",
+        "constant": "VK_H",
+        "hex": "0x48",
+        "description": "H key"
+    },
+    {
+        "id": 73,
+        "raw_name": "I",
+        "name": "KeyI",
+        "constant": "VK_I",
+        "hex": "0x49",
+        "description": "I key"
+    },
+    {
+        "id": 74,
+        "raw_name": "J",
+        "name": "KeyJ",
+        "constant": "VK_J",
+        "hex": "0x4A",
+        "description": "J key"
+    },
+    {
+        "id": 75,
+        "raw_name": "K",
+        "name": "KeyK",
+        "constant": "VK_K",
+        "hex": "0x4B",
+        "description": "K key"
+    },
+    {
+        "id": 76,
+        "raw_name": "L",
+        "name": "KeyL",
+        "constant": "VK_L",
+        "hex": "0x4C",
+        "description": "L key"
+    },
+    {
+        "id": 77,
+        "raw_name": "M",
+        "name": "KeyM",
+        "constant": "VK_M",
+        "hex": "0x4D",
+        "description": "M key"
+    },
+    {
+        "id": 78,
+        "raw_name": "N",
+        "name": "KeyN",
+        "constant": "VK_N",
+        "hex": "0x4E",
+        "description": "N key"
+    },
+    {
+        "id": 79,
+        "raw_name": "O",
+        "name": "KeyO",
+        "constant": "VK_O",
+        "hex": "0x4F",
+        "description": "O key"
+    },
+    {
+        "id": 80,
+        "raw_name": "P",
+        "name": "KeyP",
+        "constant": "VK_P",
+        "hex": "0x50",
+        "description": "P key"
+    },
+    {
+        "id": 81,
+        "raw_name": "Q",
+        "name": "KeyQ",
+        "constant": "VK_Q",
+        "hex": "0x51",
+        "description": "Q key"
+    },
+    {
+        "id": 82,
+        "raw_name": "R",
+        "name": "KeyR",
+        "constant": "VK_R",
+        "hex": "0x52",
+        "description": "R key"
+    },
+    {
+        "id": 83,
+        "raw_name": "S",
+        "name": "KeyS",
+        "constant": "VK_S",
+        "hex": "0x53",
+        "description": "S key"
+    },
+    {
+        "id": 84,
+        "raw_name": "T",
+        "name": "KeyT",
+        "constant": "VK_T",
+        "hex": "0x54",
+        "description": "T key"
+    },
+    {
+        "id": 85,
+        "raw_name": "U",
+        "name": "KeyU",
+        "constant": "VK_U",
+        "hex": "0x55",
+        "description": "U key"
+    },
+    {
+        "id": 86,
+        "raw_name": "V",
+        "name": "KeyV",
+        "constant": "VK_V",
+        "hex": "0x56",
+        "description": "V key"
+    },
+    {
+        "id": 87,
+        "raw_name": "W",
+        "name": "KeyW",
+        "constant": "VK_W",
+        "hex": "0x57",
+        "description": "W key"
+    },
+    {
+        "id": 88,
+        "raw_name": "X",
+        "name": "KeyX",
+        "constant": "VK_X",
+        "hex": "0x58",
+        "description": "X key"
+    },
+    {
+        "id": 89,
+        "raw_name": "Y",
+        "name": "KeyY",
+        "constant": "VK_Y",
+        "hex": "0x59",
+        "description": "Y key"
+    },
+    {
+        "id": 90,
+        "raw_name": "Z",
+        "name": "KeyZ",
+        "constant": "VK_Z",
+        "hex": "0x5A",
+        "description": "Z key"
+    },
+    {
+        "id": 91,
+        "raw_name": "META",
+        "name": "MetaLeft",
+        "constant": "VK_LWIN",
+        "hex": "0x5B",
+        "description": "Left Windows key (Natural keyboard)"
+    },
+    {
+        "id": 92,
+        "raw_name": "META",
+        "name": "MetaRight",
+        "constant": "VK_RWIN",
+        "hex": "0x5C",
+        "description": "Right Windows key (Natural keyboard)"
+    },
+    {
+        "id": 93,
+        "raw_name": "APPS",
+        "name": "ContextMenu",
+        "constant": "VK_APPS",
+        "hex": "0x5D",
+        "description": "Applications key (Natural keyboard)"
+    },
+    {
+        "id": 95,
+        "raw_name": "SLEEP",
+        "name": "Sleep",
+        "constant": "VK_SLEEP",
+        "hex": "0x5F",
+        "description": "Computer Sleep key"
+    },
+    {
+        "id": 96,
+        "raw_name": "NUMPAD0",
+        "name": "Numpad0",
+        "constant": "VK_NUMPAD0",
+        "hex": "0x60",
+        "description": "Numeric keypad 0 key"
+    },
+    {
+        "id": 97,
+        "raw_name": "NUMPAD1",
+        "name": "Numpad1",
+        "constant": "VK_NUMPAD1",
+        "hex": "0x61",
+        "description": "Numeric keypad 1 key"
+    },
+    {
+        "id": 98,
+        "raw_name": "NUMPAD2",
+        "name": "Numpad2",
+        "constant": "VK_NUMPAD2",
+        "hex": "0x62",
+        "description": "Numeric keypad 2 key"
+    },
+    {
+        "id": 99,
+        "raw_name": "NUMPAD3",
+        "name": "Numpad3",
+        "constant": "VK_NUMPAD3",
+        "hex": "0x63",
+        "description": "Numeric keypad 3 key"
+    },
+    {
+        "id": 100,
+        "raw_name": "NUMPAD4",
+        "name": "Numpad4",
+        "constant": "VK_NUMPAD4",
+        "hex": "0x64",
+        "description": "Numeric keypad 4 key"
+    },
+    {
+        "id": 101,
+        "raw_name": "NUMPAD5",
+        "name": "Numpad5",
+        "constant": "VK_NUMPAD5",
+        "hex": "0x65",
+        "description": "Numeric keypad 5 key"
+    },
+    {
+        "id": 102,
+        "raw_name": "NUMPAD6",
+        "name": "Numpad6",
+        "constant": "VK_NUMPAD6",
+        "hex": "0x66",
+        "description": "Numeric keypad 6 key"
+    },
+    {
+        "id": 103,
+        "raw_name": "NUMPAD7",
+        "name": "Numpad7",
+        "constant": "VK_NUMPAD7",
+        "hex": "0x67",
+        "description": "Numeric keypad 7 key"
+    },
+    {
+        "id": 104,
+        "raw_name": "NUMPAD8",
+        "name": "Numpad8",
+        "constant": "VK_NUMPAD8",
+        "hex": "0x68",
+        "description": "Numeric keypad 8 key"
+    },
+    {
+        "id": 105,
+        "raw_name": "NUMPAD9",
+        "name": "Numpad9",
+        "constant": "VK_NUMPAD9",
+        "hex": "0x69",
+        "description": "Numeric keypad 9 key"
+    },
+    {
+        "id": 106,
+        "raw_name": "MULTIPLY",
+        "name": "Multiply",
+        "constant": "VK_MULTIPLY",
+        "hex": "0x6A",
+        "description": "Multiply key"
+    },
+    {
+        "id": 107,
+        "raw_name": "ADD",
+        "name": "Add",
+        "constant": "VK_ADD",
+        "hex": "0x6B",
+        "description": "Add key"
+    },
+    {
+        "id": 108,
+        "raw_name": "SEPARATOR",
+        "name": "Separator",
+        "constant": "VK_SEPARATOR",
+        "hex": "0x6C",
+        "description": "Separator key"
+    },
+    {
+        "id": 109,
+        "raw_name": "SUBTRACT",
+        "name": "Subtract",
+        "constant": "VK_SUBTRACT",
+        "hex": "0x6D",
+        "description": "Subtract key"
+    },
+    {
+        "id": 110,
+        "raw_name": "DECIMAL",
+        "name": "Decimal",
+        "constant": "VK_DECIMAL",
+        "hex": "0x6E",
+        "description": "Decimal key"
+    },
+    {
+        "id": 111,
+        "raw_name": "DIVIDE",
+        "name": "Divide",
+        "constant": "VK_DIVIDE",
+        "hex": "0x6F",
+        "description": "Divide key"
+    },
+    {
+        "id": 112,
+        "raw_name": "F1",
+        "name": "F1",
+        "constant": "VK_F1",
+        "hex": "0x70",
+        "description": "F1 key"
+    },
+    {
+        "id": 113,
+        "raw_name": "F2",
+        "name": "F2",
+        "constant": "VK_F2",
+        "hex": "0x71",
+        "description": "F2 key"
+    },
+    {
+        "id": 114,
+        "raw_name": "F3",
+        "name": "F3",
+        "constant": "VK_F3",
+        "hex": "0x72",
+        "description": "F3 key"
+    },
+    {
+        "id": 115,
+        "raw_name": "F4",
+        "name": "F4",
+        "constant": "VK_F4",
+        "hex": "0x73",
+        "description": "F4 key"
+    },
+    {
+        "id": 116,
+        "raw_name": "F5",
+        "name": "F5",
+        "constant": "VK_F5",
+        "hex": "0x74",
+        "description": "F5 key"
+    },
+    {
+        "id": 117,
+        "raw_name": "F6",
+        "name": "F6",
+        "constant": "VK_F6",
+        "hex": "0x75",
+        "description": "F6 key"
+    },
+    {
+        "id": 118,
+        "raw_name": "F7",
+        "name": "F7",
+        "constant": "VK_F7",
+        "hex": "0x76",
+        "description": "F7 key"
+    },
+    {
+        "id": 119,
+        "raw_name": "F8",
+        "name": "F8",
+        "constant": "VK_F8",
+        "hex": "0x77",
+        "description": "F8 key"
+    },
+    {
+        "id": 120,
+        "raw_name": "F9",
+        "name": "F9",
+        "constant": "VK_F9",
+        "hex": "0x78",
+        "description": "F9 key"
+    },
+    {
+        "id": 121,
+        "raw_name": "F10",
+        "name": "F10",
+        "constant": "VK_F10",
+        "hex": "0x79",
+        "description": "F10 key"
+    },
+    {
+        "id": 122,
+        "raw_name": "F11",
+        "name": "F11",
+        "constant": "VK_F11",
+        "hex": "0x7A",
+        "description": "F11 key"
+    },
+    {
+        "id": 123,
+        "raw_name": "F12",
+        "name": "F12",
+        "constant": "VK_F12",
+        "hex": "0x7B",
+        "description": "F12 key"
+    },
+    {
+        "id": 124,
+        "raw_name": "F13",
+        "name": "F13",
+        "constant": "VK_F13",
+        "hex": "0x7C",
+        "description": "F13 key"
+    },
+    {
+        "id": 125,
+        "raw_name": "F14",
+        "name": "F14",
+        "constant": "VK_F14",
+        "hex": "0x7D",
+        "description": "F14 key"
+    },
+    {
+        "id": 126,
+        "raw_name": "F15",
+        "name": "F15",
+        "constant": "VK_F15",
+        "hex": "0x7E",
+        "description": "F15 key"
+    },
+    {
+        "id": 127,
+        "raw_name": "F16",
+        "name": "F16",
+        "constant": "VK_F16",
+        "hex": "0x7F",
+        "description": "F16 key"
+    },
+    {
+        "id": 128,
+        "raw_name": "F17",
+        "name": "F17",
+        "constant": "VK_F17",
+        "hex": "0x70",
+        "description": "F17 key"
+    },
+    {
+        "id": 129,
+        "raw_name": "F18",
+        "name": "F18",
+        "constant": "VK_F18",
+        "hex": "0x81",
+        "description": "F18 key"
+    },
+    {
+        "id": 130,
+        "raw_name": "F19",
+        "name": "F19",
+        "constant": "VK_F19",
+        "hex": "0x82",
+        "description": "F19 key"
+    },
+    {
+        "id": 131,
+        "raw_name": "F20",
+        "name": "F20",
+        "constant": "VK_F20",
+        "hex": "0x83",
+        "description": "F20 key"
+    },
+    {
+        "id": 132,
+        "raw_name": "F21",
+        "name": "F21",
+        "constant": "VK_F21",
+        "hex": "0x84",
+        "description": "F21 key"
+    },
+    {
+        "id": 133,
+        "raw_name": "F22",
+        "name": "F22",
+        "constant": "VK_F22",
+        "hex": "0x85",
+        "description": "F22 key"
+    },
+    {
+        "id": 134,
+        "raw_name": "F23",
+        "name": "F23",
+        "constant": "VK_F23",
+        "hex": "0x86",
+        "description": "F23 key"
+    },
+    {
+        "id": 135,
+        "raw_name": "F24",
+        "name": "F24",
+        "constant": "VK_F24",
+        "hex": "0x87",
+        "description": "F24 key"
+    },
+    {
+        "id": 144,
+        "raw_name": "NUMLOCK",
+        "name": "NumLock",
+        "constant": "VK_NUMLOCK",
+        "hex": "0x90",
+        "description": "NUM LOCK key"
+    },
+    {
+        "id": 145,
+        "raw_name": "SCROLL",
+        "name": "ScrollLock",
+        "constant": "VK_SCROLL",
+        "hex": "0x91",
+        "description": "SCROLL LOCK key"
+    },
+    {
+        "id": 160,
+        "raw_name": "LSHIFT",
+        "name": "ShiftLeft",
+        "constant": "VK_LSHIFT",
+        "hex": "0xA0",
+        "description": "Left SHIFT key"
+    },
+    {
+        "id": 161,
+        "raw_name": "RSHIFT",
+        "name": "ShiftRight",
+        "constant": "VK_RSHIFT",
+        "hex": "0xA1",
+        "description": "Right SHIFT key"
+    },
+    {
+        "id": 162,
+        "raw_name": "LCONTROL",
+        "name": "ControlLeft",
+        "constant": "VK_LCONTROL",
+        "hex": "0xA2",
+        "description": "Left CONTROL key"
+    },
+    {
+        "id": 163,
+        "raw_name": "RCONTROL",
+        "name": "ControlRight",
+        "constant": "VK_RCONTROL",
+        "hex": "0xA3",
+        "description": "Right CONTROL key"
+    },
+    {
+        "id": 164,
+        "raw_name": "LMENU",
+        "name": "AltLeft",
+        "constant": "VK_LMENU",
+        "hex": "0xA4",
+        "description": "Left MENU key"
+    },
+    {
+        "id": 165,
+        "raw_name": "AltGraph",
+        "name": "AltRight",
+        "constant": "VK_RMENU",
+        "hex": "0xA5",
+        "description": "Right MENU key"
+    },
+    {
+        "id": 166,
+        "raw_name": "BROWSER_BACK",
+        "name": "BrowserBack",
+        "constant": "VK_BROWSER_BACK",
+        "hex": "0xA6",
+        "description": "Browser Back key"
+    },
+    {
+        "id": 167,
+        "raw_name": "BROWSER_FORWARD",
+        "name": "BrowserForward",
+        "constant": "VK_BROWSER_FORWARD",
+        "hex": "0xA7",
+        "description": "Browser Forward key"
+    },
+    {
+        "id": 168,
+        "raw_name": "BROWSER_REFRESH",
+        "name": "BrowserRefresh",
+        "constant": "VK_BROWSER_REFRESH",
+        "hex": "0xA8",
+        "description": "Browser Refresh key"
+    },
+    {
+        "id": 169,
+        "raw_name": "BROWSER_STOP",
+        "name": "BrowserStop",
+        "constant": "VK_BROWSER_STOP",
+        "hex": "0xA9",
+        "description": "Browser Stop key"
+    },
+    {
+        "id": 170,
+        "raw_name": "BROWSER_SEARCH",
+        "name": "BrowserSearch",
+        "constant": "VK_BROWSER_SEARCH",
+        "hex": "0xAA",
+        "description": "Browser Search key"
+    },
+    {
+        "id": 171,
+        "raw_name": "BROWSER_FAVORITES",
+        "name": "BrowserFavorites",
+        "constant": "VK_BROWSER_FAVORITES",
+        "hex": "0xAB",
+        "description": "Browser Favorites key"
+    },
+    {
+        "id": 172,
+        "raw_name": "BROWSER_HOME",
+        "name": "BrowserHome",
+        "constant": "VK_BROWSER_HOME",
+        "hex": "0xAC",
+        "description": "Browser Start and Home key"
+    },
+    {
+        "id": 173,
+        "raw_name": "VOLUME_MUTE",
+        "name": "VolumeMute",
+        "constant": "VK_VOLUME_MUTE",
+        "hex": "0xAD",
+        "description": "Volume Mute key"
+    },
+    {
+        "id": 174,
+        "raw_name": "VOLUME_DOWN",
+        "name": "VolumeDown",
+        "constant": "VK_VOLUME_DOWN",
+        "hex": "0xAE",
+        "description": "Volume Down key"
+    },
+    {
+        "id": 175,
+        "raw_name": "VOLUME_UP",
+        "name": "VolumeUp",
+        "constant": "VK_VOLUME_UP",
+        "hex": "0xAF",
+        "description": "Volume Up key"
+    },
+    {
+        "id": 176,
+        "raw_name": "MEDIA_NEXT_TRACK",
+        "name": "MediaTrackNext",
+        "constant": "VK_MEDIA_NEXT_TRACK",
+        "hex": "0xB0",
+        "description": "Next Track key"
+    },
+    {
+        "id": 177,
+        "raw_name": "MEDIA_PREV_TRACK",
+        "name": "MediaTrackPrevious",
+        "constant": "VK_MEDIA_PREV_TRACK",
+        "hex": "0xB1",
+        "description": "Previous Track Media key"
+    },
+    {
+        "id": 178,
+        "raw_name": "MEDIA_STOP",
+        "name": "MediaStop",
+        "constant": "VK_MEDIA_STOP",
+        "hex": "0xB2",
+        "description": "Stop Media key"
+    },
+    {
+        "id": 179,
+        "raw_name": "MEDIA_PLAY_PAUSE",
+        "name": "MediaPlayPause",
+        "constant": "VK_MEDIA_PLAY_PAUSE",
+        "hex": "0xB3",
+        "description": "Play/Pause Media key"
+    },
+    {
+        "id": 180,
+        "raw_name": "LAUNCH_MAIL",
+        "name": "LaunchMail",
+        "constant": "VK_LAUNCH_MAIL",
+        "hex": "0xB4",
+        "description": "Start Mail key"
+    },
+    {
+        "id": 181,
+        "raw_name": "LAUNCH_MEDIA_SELECT",
+        "name": "LaunchMediaSelect",
+        "constant": "VK_LAUNCH_MEDIA_SELECT",
+        "hex": "0xB5",
+        "description": "Select Media key"
+    },
+    {
+        "id": 182,
+        "raw_name": "LAUNCH_APP1",
+        "name": "LaunchApp1",
+        "constant": "VK_LAUNCH_APP1",
+        "hex": "0xB6",
+        "description": "Start Application 1 key"
+    },
+    {
+        "id": 183,
+        "raw_name": "LAUNCH_APP2",
+        "name": "LaunchApp2",
+        "constant": "VK_LAUNCH_APP2",
+        "hex": "0xB7",
+        "description": "Start Application 2 key"
+    },
+    {
+        "id": 186,
+        "raw_name": "OEM_1",
+        "name": "Semicolon",
+        "constant": "VK_OEM_1",
+        "hex": "0xBA",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ';:' key"
+    },
+    {
+        "id": 187,
+        "raw_name": "OEM_PLUS",
+        "name": "Equal",
+        "constant": "VK_OEM_PLUS",
+        "hex": "0xBB",
+        "description": "For any country/region, the '+' key"
+    },
+    {
+        "id": 188,
+        "raw_name": "OEM_COMMA",
+        "name": "Comma",
+        "constant": "VK_OEM_COMMA",
+        "hex": "0xBC",
+        "description": "For any country/region, the ',' key"
+    },
+    {
+        "id": 189,
+        "raw_name": "OEM_MINUS",
+        "name": "Minus",
+        "constant": "VK_OEM_MINUS",
+        "hex": "0xBD",
+        "description": "For any country/region, the '-' key"
+    },
+    {
+        "id": 190,
+        "raw_name": "OEM_PERIOD",
+        "name": "Period",
+        "constant": "VK_OEM_PERIOD",
+        "hex": "0xBE",
+        "description": "For any country/region, the '.' key"
+    },
+    {
+        "id": 191,
+        "raw_name": "OEM_2",
+        "name": "Slash",
+        "constant": "VK_OEM_2",
+        "hex": "0xBF",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '/?' key"
+    },
+    {
+        "id": 192,
+        "raw_name": "OEM_3",
+        "name": "GraveAccent",
+        "constant": "VK_OEM_3",
+        "hex": "0xC0",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '`~' key"
+    },
+    {
+        "id": -1,
+        "raw_name": "?",
+        "name": "BackQuote",
+        "constant": "VK_BACK_QUOTE",
+        "hex": "0xC0 ",
+        "description": "We don't have enough information on this key, but it seems to be identical to VK_OEM_3."
+    },
+    {
+        "id": 219,
+        "raw_name": "Dead",
+        "name": "BracketLeft",
+        "constant": "VK_OEM_4",
+        "hex": "0xDB",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '[{' key"
+    },
+    {
+        "id": 220,
+        "raw_name": "OEM_5",
+        "name": "Backslash",
+        "constant": "VK_OEM_5",
+        "hex": "0xDC",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the '|' key"
+    },
+    {
+        "id": 221,
+        "raw_name": "OEM_6",
+        "name": "BracketRight",
+        "constant": "VK_OEM_6",
+        "hex": "0xDD",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the ']}' key"
+    },
+    {
+        "id": 222,
+        "raw_name": "OEM_7",
+        "name": "Quote",
+        "constant": "VK_OEM_7",
+        "hex": "0xDE",
+        "description": "Used for miscellaneous characters; it can vary by keyboard. For the US standard keyboard, the 'single-quote/double-quote' key"
+    },
+    {
+        "id": 223,
+        "raw_name": "OEM_8",
+        "name": "Oem8",
+        "constant": "VK_OEM_8",
+        "hex": "0xDF",
+        "description": "Used for miscellaneous characters; it can vary by keyboard."
+    },
+    {
+        "id": 226,
+        "raw_name": "OEM_102",
+        "name": "Backslash",
+        "constant": "VK_OEM_102",
+        "hex": "0xE2",
+        "description": "Either the angle bracket key or the backslash key on the RT 102-key keyboard"
+    },
+    {
+        "id": 229,
+        "raw_name": "PROCESSKEY",
+        "name": "Process",
+        "constant": "VK_PROCESSKEY",
+        "hex": "0xE5",
+        "description": "IME PROCESS key"
+    },
+    {
+        "id": 231,
+        "raw_name": "PACKET",
+        "name": "Packet",
+        "constant": "VK_PACKET",
+        "hex": "0xE7",
+        "description": "Used to pass Unicode characters as if they were keystrokes"
+    },
+    {
+        "id": 246,
+        "raw_name": "ATTENTION",
+        "name": "Attention",
+        "constant": "VK_ATTN",
+        "hex": "0xF6",
+        "description": "Attn key"
+    },
+    {
+        "id": 247,
+        "raw_name": "CRSEL",
+        "name": "CrSel",
+        "constant": "VK_CRSEL",
+        "hex": "0xF7",
+        "description": "CrSel key"
+    },
+    {
+        "id": 248,
+        "raw_name": "EXSEL",
+        "name": "ExSel",
+        "constant": "VK_EXSEL",
+        "hex": "0xF8",
+        "description": "ExSel key"
+    },
+    {
+        "id": 249,
+        "raw_name": "ERASEEOF",
+        "name": "EraseEof",
+        "constant": "VK_EREOF",
+        "hex": "0xF9",
+        "description": "Erase End of File key"
+    },
+    {
+        "id": 250,
+        "raw_name": "PLAY",
+        "name": "Play",
+        "constant": "VK_PLAY",
+        "hex": "0xFA",
+        "description": "Play key"
+    },
+    {
+        "id": 251,
+        "raw_name": "ZOOM",
+        "name": "Zoom",
+        "constant": "VK_ZOOM",
+        "hex": "0xFB",
+        "description": "Zoom key"
+    },
+    {
+        "id": 252,
+        "raw_name": "NONAME",
+        "name": "NoName",
+        "constant": "VK_NONAME",
+        "hex": "0xFC",
+        "description": "Reserved"
+    },
+    {
+        "id": 253,
+        "raw_name": "PA1",
+        "name": "Pa1",
+        "constant": "VK_PA1",
+        "hex": "0xFD",
+        "description": "PA1 key"
+    },
+    {
+        "id": 254,
+        "raw_name": "OEM_CLEAR",
+        "name": "Clear",
+        "constant": "VK_OEM_CLEAR",
+        "hex": "0xFE",
+        "description": "Clear key"
+    },
+    {
+        "id": 255,
+        "raw_name": "UNDEFINED",
+        "name": "Undefined",
+        "constant": "VK_UNDEFINED",
+        "hex": "0xFF",
+        "description": "Undefined key"
+    }
+]

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Info</title>
+  <style>
+    :root {
+      --bg-color: rgb(20, 20, 20);
+      --color: rgb(23, 23, 23);
+    }
+  
+    body {
+      align-items: center;
+      background-color: var(--bg-color);
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      margin: 0px;
+      overflow: hidden;
+      padding: 0px;
+    }
+  
+    #cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      max-width: 916px;
+      width: calc(100% - 20px);
+      align-items: center;
+      justify-content: center;
+    }
+
+#cards:hover > .card::after {
+  opacity: 1;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
+  height: 370px;
+  flex-direction: column;
+  position: relative;
+  width: 300px;  
+  z-index: 999;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.card::before,
+.card::after {
+  border-radius: inherit;
+  content: "";
+  height: 100%;
+  left: 0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transition: opacity 500ms;
+  width: 100%;
+}
+
+.card::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(255, 255, 255, 0.06),
+    transparent 40%
+  );
+  z-index: 3;
+}
+
+.card::after {  
+  background: radial-gradient(
+    600px circle at var(--mouse-x) var(--mouse-y), 
+    rgba(255, 255, 255, 0.4),
+    transparent 40%
+  );
+  z-index: 1;
+}
+
+.card > .content {
+  background-color: var(--color);
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  inset: 1px;
+  padding: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+h1, h2, h3, h4, span {
+  color: rgb(240, 240, 240);
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  margin: 0px;
+}
+
+i {  
+  color: rgb(240, 240, 240);
+}
+
+.info-back {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.info-back > i {
+  font-size: 4em;
+  opacity: 0.25;
+}
+
+.info-wrapper {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-start;
+  padding: 0px 20px;
+}
+
+.info {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+}
+
+.info > i {  
+  font-size: 1em;
+  height: 20px;
+  line-height: 20px;
+}
+
+.info-title > h3 {
+  font-size: 1.1em;
+  line-height: 20px;
+}
+
+.info-title > h4 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85em;
+  margin-top: 8px;
+}
+
+.key-data-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.key-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -10px;
+  z-index: 9999;
+}
+
+.key-data-title {
+  font-size: 1em;
+  font-weight: 600;
+  margin-right: 10px;
+  pointer-events: none;
+}
+
+.key-data-value {
+  font-size: 0.9em;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  position: relative;
+  z-index: 4;
+  color: rgb(150, 150, 150);
+  border: 1px solid rgb(53, 53, 53);
+  background-color: rgba(20, 20, 20, 0.315);
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  text-align: center;
+  width: 100%;
+  cursor: text;
+}
+
+
+@media(max-width: 1000px) {
+  body {
+    align-items: flex-start;  
+    overflow: auto;
+  }
+  
+  #cards {    
+    max-width: 1000px;
+    padding: 10px 0px;
+  }
+  
+  .card {
+    flex-shrink: 1;
+    width: calc(50% - 4px);
+  }
+}
+
+@media(max-width: 500px) {
+  .card {
+    height: 180px;
+  }
+  
+  .info-back {
+    height: 80px;  
+  }
+  
+  .info-back > i {
+    font-size: 3em;
+  }
+    
+  .info-wrapper {
+    padding: 0px 10px;
+  }
+  
+  .info > i { 
+    font-size: 0.8em; 
+  }
+  
+  .info-title > h3 {
+    font-size: 0.9em;
+  }
+
+  .info-title > h4 {
+    font-size: 0.8em;
+    margin-top: 4px;
+  }
+}
+
+@media(max-width: 320px) {
+  .card {
+    width: 100%;
+  }
+}
+  </style>
+</head>
+<body>
+  <h1>Info</h1>
+  <div id="cards">
+    <div class="card">
+      <div class="content"></div>
+      <div class="key-data-wrapper">
+        <div class="key-data" onclick="copyKeyData('keyDataName')">
+          <h2 class="key-data-title">Nom de la touche :</h2>
+          <p class="key-data-value" id="keyDataName"></p>
+        </div>
+        <div class="key-data" onclick="copyKeyData('keyDataId')">
+          <h3 class="key-data-title">ID de la touche :</h3>
+          <p class="key-data-value" id="keyDataId"></p>
+        </div>
+        <div class="key-data" onclick="copyKeyData('keyDataConstant')">
+          <h3 class="key-data-title">Constante de la touche :</h3>
+          <p class="key-data-value" id="keyDataConstant"></p>
+        </div>
+        <div class="key-data" onclick="copyKeyData('keyDataHex')">
+          <h3 class="key-data-title">Hex de la touche :</h3>
+          <p class="key-data-value" id="keyDataHex"></p>
+        </div>
+        <div class="key-data" onclick="copyKeyData('keyDataDescription')">
+          <h3 class="key-data-title">Description de la touche :</h3>
+          <p class="key-data-value" id="keyDataDescription"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("keydown", showInfo);
+    window.addEventListener("hashchange", handleHashChange);
+
+    function loadKeyInfo() {
+      var xhr = new XMLHttpRequest();
+      xhr.overrideMimeType("application/json");
+      xhr.open('GET', 'virtual_keys.json', true);
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          var keyInfo = JSON.parse(xhr.responseText);
+          showInfo.keyInfo = keyInfo;
+          handleHashChange();
+        }
+      };
+      xhr.send();
+    }
+
+    function getKeyData(key, keyInfo) {
+      if (!keyInfo) return null;
+
+      var keyData;
+      if (/[a-z]/i.test(key)) {
+        keyData = keyInfo.find(item => item.raw_name.toLowerCase() === key.toLowerCase() || item.name.toLowerCase() === key.toLowerCase());
+      } else {
+        keyData = keyInfo.find(item => item.constant && item.constant.toLowerCase() === key.toLowerCase());
+      }
+      return keyData || null;
+    }
+
+    function showInfo(event) {
+      var keyInfo = showInfo.keyInfo;
+
+      var key;
+      if (/[a-z]/i.test(event.key)) {
+        key = event.key.toLowerCase();
+      } else {
+        key = event.code.toLowerCase();
+      }
+
+      var keyData = getKeyData(key, keyInfo);
+
+      if (keyData) {
+        document.getElementById("keyDataName").textContent = keyData.raw_name;
+        document.getElementById("keyDataId").textContent = keyData.id;
+        document.getElementById("keyDataConstant").textContent = keyData.constant;
+        document.getElementById("keyDataHex").textContent = keyData.hex;
+        document.getElementById("keyDataDescription").textContent = keyData.description;
+
+        var newUrl = "index.html#" + key;
+        history.pushState({}, "", newUrl);
+      } else {
+        resetKeyData();
+      }
+    }
+
+    function handleHashChange() {
+      var hash = window.location.hash.substring(1);
+      var keyInfo = showInfo.keyInfo;
+      var keyData = getKeyData(hash, keyInfo);
+
+      if (keyData) {
+        document.getElementById("keyDataName").textContent = keyData.raw_name;
+        document.getElementById("keyDataId").textContent = keyData.id;
+        document.getElementById("keyDataConstant").textContent = keyData.constant;
+        document.getElementById("keyDataHex").textContent = keyData.hex;
+        document.getElementById("keyDataDescription").textContent = keyData.description;
+      } else {
+        resetKeyData();
+      }
+    }
+
+    function resetKeyData() {
+      document.getElementById("keyDataName").textContent = "";
+      document.getElementById("keyDataId").textContent = "";
+      document.getElementById("keyDataConstant").textContent = "";
+      document.getElementById("keyDataHex").textContent = "";
+      document.getElementById("keyDataDescription").textContent = "";
+    }
+
+    function copyKeyData(elementId) {
+      var keyData = document.getElementById(elementId).textContent;
+      navigator.clipboard.writeText(keyData);
+    }
+
+    loadKeyInfo();
+
+
+    document.getElementById("cards").onmousemove = e => {
+  for(const card of document.getElementsByClassName("card")) {
+    const rect = card.getBoundingClientRect(),
+          x = e.clientX - rect.left,
+          y = e.clientY - rect.top;
+
+    card.style.setProperty("--mouse-x", `${x}px`);
+    card.style.setProperty("--mouse-y", `${y}px`);
+  };
+}
+  </script>
+</body>
