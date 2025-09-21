@@ -15,11 +15,4 @@ Useful for debugging, learning about keyboard inputs, or building keyboard-relat
 
 ## Demo
 👉 [Live Demo](https://lorkydey.github.io/vkinfokey)
-
 ---
-
-## Installation & Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Lorkydey/vkinfokey.git
-   cd vkinfokey
